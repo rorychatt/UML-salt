@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T09:11:39.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="8bIaKPADwhn1fsvn9hxb" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T09:20:16.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="4cVqwprZuLnrKWelm4tt" version="24.6.4" type="github">
   <diagram name="Page-1" id="XzhITwdruDI60ukkxCVY">
-    <mxGraphModel dx="1514" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sGgMiUtagr6D2csW1Qab-1" value="class Person&lt;div&gt;&lt;br&gt;address: Address&lt;br&gt;personal number: string&lt;div&gt;phone number: string&lt;/div&gt;&lt;div&gt;email address: string&lt;/div&gt;&lt;div&gt;name: string&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="430" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGgMiUtagr6D2csW1Qab-2" value="class Organization&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name: string&lt;/div&gt;&lt;div&gt;organization number: string&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGgMiUtagr6D2csW1Qab-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGgMiUtagr6D2csW1Qab-3" target="sGgMiUtagr6D2csW1Qab-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGgMiUtagr6D2csW1Qab-3" value="class Client : Organization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sGgMiUtagr6D2csW1Qab-4" value="class Salt : Organization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="680" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sGgMiUtagr6D2csW1Qab-5" value="class Contact&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;start date: DateTime&lt;/div&gt;&lt;div&gt;end date: DateTime&lt;/div&gt;&lt;div&gt;hourly rate: float&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="900" width="150" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
